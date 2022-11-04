@@ -87,7 +87,9 @@
 /* hero slider end */
 
 /* Bestseller section start */
-
+.bestsellers{
+    background: url(./img/bestseller\ bkg.jpeg);
+}
 .bestsellers button{
     margin-top: 3.6vh;
     padding-left: 28px;
@@ -99,12 +101,13 @@
     border: 2px solid black;
     border-radius: 33px;
     cursor: none;
-    border: none;
+    border: 3px solid black;
 
 }
 
 .bestsellers button:hover{
     cursor: none;
-    background-color: #ffc107;;
+    background-color: #ffc107;
+    border: 3px solid black;
 }
 /* Bestseller section end */
