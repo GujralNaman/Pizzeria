@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
-    /* background-color: #f5f5f5; */
     background-color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 
@@ -111,9 +118,9 @@
 /* menu section end */
 
 /* Bestseller section start */
-.bestsellers{
+/* .bestsellers{
     background: url(./img/bestseller\ bkg.jpeg);
-}
+} */
 .bestsellers button{
     margin-top: 3.6vh;
     padding-left: 28px;
@@ -131,6 +138,8 @@
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
+
+
 .bestsellers .col-lg-3 a{
     background-color: #ffc107;
 }
@@ -140,6 +149,12 @@
     background-color: #ffc107;
     border: 3px solid black;
 }
+
+.card-img, .card-img-bottom, .card-img-top {
+    width: 100%;
+    border-radius: 142px;
+}
+
 /* Bestseller section end */
 
 /* footer start */
@@ -168,6 +183,7 @@
     display: block;
     text-decoration: none;
     font-size: 19px;
+    color: #000;
 }
 
 .footer .footerPart1 a:hover{
@@ -186,11 +202,11 @@
 .footer .row .store a img{
     margin-top: 3vh;
     height: 50px;
-    width: 195px;
+    width: 165px;
     display: inline;
     float: right;
-    margin-top: -3vh;
-    margin: -3vw 4vw 0 0;
+    margin-top: -2vh;
+    margin: -3vw 8vw 0 0;
 }
 
 .hr{
