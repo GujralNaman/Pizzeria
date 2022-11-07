@@ -91,6 +91,12 @@ body{
     width: 450px;
     margin-top: 5vh;
 }
+
+.hero-slider .carousel-inner .img .special_slider_img{
+    border-radius: 50%;
+    /* border: 5px solid black; */
+    width: 29vw;
+}
 /* hero slider end */
 
 /* menu section start */
