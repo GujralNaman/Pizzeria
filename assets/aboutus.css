@@ -155,6 +155,16 @@ margin-top: 10vh;
     font-weight: 700;
     margin-top: 10vh;
 }
-
+.how_we_started{
+    text-align: justify;
+    background-color: #fff;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    line-height: 4vh;
+    margin-top: 10vh;
+    margin-left: 9.5vw;
+    margin-right: 9.5vw;
+}
 /* team section end */
 
