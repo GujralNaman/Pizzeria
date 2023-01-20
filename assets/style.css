@@ -291,3 +291,20 @@ body{
     margin-top: 100px;
 }
 /* footer end */
+
+
+
+/* Mobile Responsiveness */
+
+@media screen and (max-width: 940px){
+
+    .hero-slider .text h1{
+        margin-left: -7vw;
+    }
+    
+    .hero-slider .text p{
+        margin-left: -12vw;
+        width: 100%;
+        text-align: justify;
+    }
+}
